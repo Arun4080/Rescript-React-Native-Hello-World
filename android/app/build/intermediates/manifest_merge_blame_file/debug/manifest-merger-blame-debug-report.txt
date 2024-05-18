@@ -1,0 +1,122 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.awesomeproject01"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.75.1] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/5a27bcb627122afa1cbbd4a629cfca68/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.75.1] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/5a27bcb627122afa1cbbd4a629cfca68/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[:sentry_react-native] /Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+14-->[:sentry_react-native] /Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-76
+15
+16    <application
+16-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:6:5-26:19
+17        android:name="com.awesomeproject01.MainApplication"
+17-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:7:7-38
+18        android:allowBackup="false"
+18-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:11:7-34
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.7.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/26d1e611a1d99986bd9b52ab01c13a1f/core-1.7.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:9:7-41
+22        android:label="@string/app_name"
+22-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:8:7-39
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:10:7-52
+24        android:theme="@style/AppTheme"
+24-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:12:7-38
+25        android:usesCleartextTraffic="true" >
+25-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/debug/AndroidManifest.xml:8:9-44
+26        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+26-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/debug/AndroidManifest.xml:11:9-86
+26-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/debug/AndroidManifest.xml:11:19-83
+27        <activity
+27-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:13:7-25:18
+28            android:name="com.awesomeproject01.MainActivity"
+28-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:14:9-37
+29            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+29-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:16:9-86
+30            android:exported="true"
+30-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:19:9-32
+31            android:label="@string/app_name"
+31-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:15:9-41
+32            android:launchMode="singleTask"
+32-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:17:9-40
+33            android:screenOrientation="portrait"
+33-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:20:9-45
+34            android:windowSoftInputMode="adjustResize" >
+34-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:18:9-51
+35            <intent-filter>
+35-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:21:9-24:25
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:22:13-65
+36-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:22:21-62
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:23:13-73
+38-->/Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/android/app/src/main/AndroidManifest.xml:23:23-70
+39            </intent-filter>
+40        </activity>
+41
+42        <meta-data
+42-->[:sentry_react-native] /Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-17:37
+43            android:name="io.sentry.auto-init"
+43-->[:sentry_react-native] /Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+44            android:value="false" />
+44-->[:sentry_react-native] /Users/arunverma/Documents/practice/react-native/rescript-react-native/AwesomeProject01/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-34
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/98ec19403f1a9365f52de6914737ab19/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/98ec19403f1a9365f52de6914737ab19/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+48            android:authorities="com.awesomeproject01.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/98ec19403f1a9365f52de6914737ab19/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/98ec19403f1a9365f52de6914737ab19/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/98ec19403f1a9365f52de6914737ab19/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/98ec19403f1a9365f52de6914737ab19/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/98ec19403f1a9365f52de6914737ab19/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/b46d6bab8cefa7336b276cb4dc6127d4/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/b46d6bab8cefa7336b276cb4dc6127d4/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/b46d6bab8cefa7336b276cb4dc6127d4/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+56        </provider> <!-- 'android:authorities' must be unique in the device, across all apps -->
+57        <provider
+57-->[io.sentry:sentry-android-core:7.8.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/c0fcc50670f413c0de995c436222712d/jetified-sentry-android-core-7.8.0/AndroidManifest.xml:12:9-15:40
+58            android:name="io.sentry.android.core.SentryInitProvider"
+58-->[io.sentry:sentry-android-core:7.8.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/c0fcc50670f413c0de995c436222712d/jetified-sentry-android-core-7.8.0/AndroidManifest.xml:13:13-69
+59            android:authorities="com.awesomeproject01.SentryInitProvider"
+59-->[io.sentry:sentry-android-core:7.8.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/c0fcc50670f413c0de995c436222712d/jetified-sentry-android-core-7.8.0/AndroidManifest.xml:14:13-70
+60            android:exported="false" />
+60-->[io.sentry:sentry-android-core:7.8.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/c0fcc50670f413c0de995c436222712d/jetified-sentry-android-core-7.8.0/AndroidManifest.xml:15:13-37
+61        <provider
+61-->[io.sentry:sentry-android-core:7.8.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/c0fcc50670f413c0de995c436222712d/jetified-sentry-android-core-7.8.0/AndroidManifest.xml:16:9-20:39
+62            android:name="io.sentry.android.core.SentryPerformanceProvider"
+62-->[io.sentry:sentry-android-core:7.8.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/c0fcc50670f413c0de995c436222712d/jetified-sentry-android-core-7.8.0/AndroidManifest.xml:17:13-76
+63            android:authorities="com.awesomeproject01.SentryPerformanceProvider"
+63-->[io.sentry:sentry-android-core:7.8.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/c0fcc50670f413c0de995c436222712d/jetified-sentry-android-core-7.8.0/AndroidManifest.xml:18:13-77
+64            android:exported="false"
+64-->[io.sentry:sentry-android-core:7.8.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/c0fcc50670f413c0de995c436222712d/jetified-sentry-android-core-7.8.0/AndroidManifest.xml:19:13-37
+65            android:initOrder="200" />
+65-->[io.sentry:sentry-android-core:7.8.0] /Users/arunverma/.gradle/caches/transforms-2/files-2.1/c0fcc50670f413c0de995c436222712d/jetified-sentry-android-core-7.8.0/AndroidManifest.xml:20:13-36
+66    </application>
+67
+68</manifest>

@@ -1,0 +1,17 @@
+.DS_Store
+node_modules/
+package-lock.json
+.vscode
+.vs
+.bs.lock
+.merlin
+lib/bs
+*.bs.js
+.build/
+.idea
+.gradle
+*.keystore
+*.iml
+*.hprof
+
+.metro-health-check*
